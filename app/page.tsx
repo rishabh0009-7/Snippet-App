@@ -33,8 +33,9 @@ const Home = async () => {
                 {snippet.title}
               </h3>
               <Link href={`/snippet/${snippet.id}`}>
-                <Button variant="outline">View</Button>
-              </Link>
+  <Button variant="link">View</Button>
+</Link>
+
             </div>
           ))
         )}
